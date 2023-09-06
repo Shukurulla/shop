@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.img-box {
+  height: 220px;
+}
+
+.img-box img {
+  height: 100%;
+}
+.menu-item {
+  list-style: none;
+  padding: 5px;
+  cursor: pointer;
+}
+.menu-item.selected {
+  background-color: #22222223;
+}
+.menu-item a {
+  text-decoration: none;
+  color: #222;
+  display: block;
+}
+.bi-cart {
+  font-size: 24px;
+  cursor: pointer;
+  position: relative;
+}
+.bi-cart span {
+  position: absolute;
+  font-style: normal;
+  width: 15px;
+  height: 15px;
+  background-color: rgb(26, 58, 165);
+  color: #fff;
+  border-radius: 45pc;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  right: -5px;
+}
